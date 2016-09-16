@@ -1,0 +1,116 @@
+* {
+  box-sizing:border-box;
+}
+
+html,body {padding:0; margin:0;
+height: 100%;}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+}
+/*
+nav {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  display:none;
+}
+
+nav a:visited {
+  color: #000;
+}*/
+/* link, visited, hover, active*/
+
+
+
+.abovefoldtextbox {
+  /*background-color: rgba(255,255,255,0.75);*/
+  position: absolute;
+  font-size:3em;
+  width: 100%;
+  color: #8a6747;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1em;
+  font-family: 'Shrikhand', cursive;
+}
+
+.abovewrapper {
+  background: url('images/cardboard.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height:100vh;
+  font-family: 'Shrikhand', cursive;
+}
+
+.belowfoldbox {
+  /*background-color: rgba(255,255,255,0.75);*/
+  position: absolute;
+  font-size:3em;
+  width: 100%;
+  color: #8a6747;
+  top: 177%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1em;
+  font-family: 'Shrikhand', cursive;
+float: inherit;
+}
+
+.belowwrap {
+  background: url('images/bed.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+  height:150vh;
+}
+
+.thirdbox {
+  position:absolute;
+  width: 100%;
+  color: #fff;
+  background-color:#8a6747;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 1em;
+  font-family: 'Orator STD';
+float: inherit;
+text-decoration: none;
+font-size:1em;
+padding-top:1.3em;
+font-weight: 100;
+}
+
+a {
+  -o-transition:.5s;
+-ms-transition:.5s;
+-moz-transition:.5s;
+-webkit-transition:.5s;
+}
+a:hover {
+    background-color: rgba(138,103,71,0.75);
+}
+
+.belowfoldbox p {
+  font-family: 'Open Sans';
+  font-size:.25em;
+  color: rgba(138,103,71,0.5);
+  line-height:3em;
+}
+
+
+
+/*Words float up to place upon loading*/
+
+/* Vertical height to 100%, overflow hidden*/
